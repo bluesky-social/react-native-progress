@@ -136,6 +136,7 @@ export class ProgressCircle extends Component {
                 }
               : undefined
           }
+          fill="none"
         >
           {unfilledColor && progressValue !== 1 ? (
             <Shape

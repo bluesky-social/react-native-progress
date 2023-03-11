@@ -89,6 +89,7 @@ export class ProgressPie extends Component {
                 }
               : undefined
           }
+          fill="none"
         >
           {unfilledColor ? (
             <Circle radius={radius} offset={offset} fill={unfilledColor} />
